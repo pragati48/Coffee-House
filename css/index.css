@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.sign-up{
+	background-color: #F4DECB;
+}
+.signup-form{
+	width: 100%;
+    text-align: center;
+    margin-top: 46px;
+    padding: 22px;
+}
+.signup-button{
+	background-color: #79B47C!important;
+}
+.signup-list{
+	margin-left: 81px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.nav-link2{
+	color: white;
+	font-weight: bold;
+}
+.nav-link2:hover{
+	color: #79B47C;
+}
+.dashboard{
+	background-color: #1E392A;
+	padding: 42px;
+}
+.dashboard-nav{
+	background-color: #D5D5D5;
+}
+.dashboard-page{
+	background-color: #C7D8C6;
+}
+.nav-link3{
+	color: #C7D8C6;
+	margin: 13px;
+}
+.nav-link3:hover{
+	color: #fff;
+}
+.dashboard-list{
+	padding: 39px;
+}
+.head{
+	color: #1E392A;
+}
+.head-item{
+	margin: 36px;
+}
+.item-form{
+	margin: 60px;
+}
+.settings-form{
+	padding: 30px;
+}
+.item-button{
+	width: 130px;
+}
+.order-form{
+	padding: 35px;
+    background-color: #B4DBC0;
+    margin: 6px;
+    border-radius: 28px;
+}
+.branch-row{
+	padding: 17px;
+}
+.select{
+	background: #96858F;
+    color: #1E392A;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.dashboard-select:hover{
+	background: #96858F;
+    color: #1E392A;
+    border-radius: 7px;
+    font-weight: bold;
+}
+.body-head{
+    color: #79B47C;
+}
+@media(max-width: 600px){
+	.banner-image{
+		height: 400px;
+	}
+}

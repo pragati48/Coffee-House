@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Item Management</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="icon" href="image/favicon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+	<!-----------dashboard start------------>
+	<section>
+		<div class="container-fluid">
+			<div class="row dashboard-nav">
+				<footer class="text-muted">Dashboard</footer>
+			</div><!------row end----->
+			<div class="row">
+				<div class="col-md-3 dashboard">
+				    <a href="">
+					    <img src="image/logo.png" width="70%">
+				    </a>
+				    <ul class="navbar-nav dashboard-list text-bld">
+				    	<li class="nav-item"><a href="item-management.html" class="nav-link nav-link3 dashboard-select select">Item Management</a></li>
+				    	<li class="nav-item"><a href="settings.html" class="nav-link nav-link3 dashboard-select">Settings</a></li>
+				    	<li class="nav-item"><a href="order-management.html" class="nav-link nav-link3 dashboard-select">Customer Order Management</a></li>
+				    	<li class="nav-item"><a href="branch-management.html" class="nav-link nav-link3 dashboard-select">Branch Management</a></li>
+				    </ul>
+				</div><!----col-3 end------>
+				<div class="col-md-9 dashboard-page">
+					<div class="row">
+						<h3 class="text-muted head-item">Manage Item</h3>
+					</div><!---row end------->
+					<div class="row">
+						<div class="col-md-8">
+							<div class="row">
+								<div class="col-md-3">
+									<button class="btn bg-dark text-white item-button">Block</button>
+								</div><!-------col-3 end----->
+								<div class="col-md-3">
+									<button class="btn bg-info text-white item-button">Unblock</button>
+								</div><!-------col-3 end----->
+								<div class="col-md-3">
+									<button class="btn bg-danger text-white item-button">Delete</button>
+								</div><!-------col-3 end----->
+								<div class="col-md-3">
+									<button class="btn bg-success text-white item-button">Download List</button>
+								</div><!-------col-3 end----->
+							</div><!-------row end------->
+						</div><!-----col-8 end------>
+					</div><!-----row end------->
+					<div class="row">
+						<form class="item-form">
+							<div class="form-group">
+							    <label>Show entries</label>
+							    <select class="form-control">
+							        <option>1</option>
+							        <option>2</option>
+							        <option>3</option>
+							        <option>4</option>
+							    </select>    
+							</div>        
+						</form>
+					</div><!----row end------>
+					<div class="row">
+						<table class="table table-bordered table-responsive">
+							<tbody>
+							<tr class="text-muted">
+								<td>S.No.</td>
+								<td>Item Name</td>
+								<td>Marked Price</td>
+								<td>Selling Price</td>
+								<td>Item image</td>
+								<td>Stock Availability</td>
+								<td>Actions</td>
+							</tr>
+							<tr class="text-muted">
+								<td>1.</td>
+								<td>Organic filter coffee</td>
+								<td>240</td>
+								<td>221</td>
+								<td><img src="image/coffee.jpg"></td>
+								<td class="text-info">Available</td>
+								<td>
+									<ul class="navbar-nav">
+										<li><button class="bg-info text-white btn">Add</button></li><br>
+										<li><button class="bg-success text-white btn">Update</button></li><br>
+										<li><button class="bg-danger text-white btn">Delete</button></li><br>
+									</ul>
+								</td>
+							</tr>
+                            </tbody>
+						</table>
+					</div><!-----row end------>
+					<button class="btn btn-info"><a href="" class="nav-link text-white">+ Add Item</a></button>
+				</div><!-----col-9 end------->
+			</div><!---------row end---------->
+		</div><!-------container-fluid end---------->
+	</section><!--------section end---------->
+	<!----------dashboard end--------------->
+
+</body>
+</html>
